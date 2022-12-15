@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  height: 400px;
+  background-image: url("./assets/Imagesicodel.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.LogoTarot {
+  height: 40%;
+  width: 40%;
+  display: block;
+	margin: 0 auto;
+}
