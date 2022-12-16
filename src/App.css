@@ -38,13 +38,15 @@
 }
 
 
-body {
-  height: 400px;
+* {
+  margin: 0;
+  padding: 0;
   background-image: url("./assets/Imagesicodel.png");
   background-size: cover;
   background-repeat:no-repeat;
-  background-position: center center;
-}
+  width: 100%;
+  height: auto;
+  }
 
 .LogoTarot {
   height: 40%;
