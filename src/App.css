@@ -62,3 +62,19 @@ h1{
   font-family: 'Inter', sans-serif;
   /*-webkit-text-stroke: 2px black */
 }
+
+.taro-list{
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+.taro-item{
+  border: 10px solid white;
+}
+
+.taro-item img{
+  width: 148px; height:300px;
+}

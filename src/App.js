@@ -1,4 +1,4 @@
-import "./App.css";
+/*import "./App.css";
 import Logo from './assets/img/LogoTarot.png';
 import {Link} from 'react-router-dom';
 
@@ -25,4 +25,24 @@ function App() {
   );
 }
 
-export default App; 
+export default App;*/ 
+
+import './App.css';
+import Home from './Home';
+// import {BrowserRouter as Router, Route, Switch } from 'react-dom'
+  
+function App() {
+  return (
+    <div className="App">
+      <div className='flexbox-container'>
+        {/* <Switch>
+          <Route path="/"> */}
+            <Home  />
+          {/* </Route>
+        </Switch> */}
+      </div>
+    </div>
+  );
+}
+
+export default App;
