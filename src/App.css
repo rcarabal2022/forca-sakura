@@ -1,4 +1,6 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+/*.App {
   text-align: center;
 }
 
@@ -35,13 +37,12 @@
   to {
     transform: rotate(360deg);
   }
-}
-
+}*/
 
 * {
   margin: 0;
   padding: 0;
-  background-image: url("./assets/Imagesicodel.png");
+  background-image: url("./assets/img/Imagesicodel.png");
   background-size: cover;
   background-repeat:no-repeat;
   width: 100%;
@@ -53,4 +54,27 @@
   width: 40%;
   display: block;
 	margin: 0 auto;
+}
+
+h1{
+  color: white;
+  text-align:center;
+  font-family: 'Inter', sans-serif;
+  /*-webkit-text-stroke: 2px black */
+}
+
+.taro-list{
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+.taro-item{
+  border: 10px solid white;
+}
+
+.taro-item img{
+  width: 148px; height:300px;
 }
